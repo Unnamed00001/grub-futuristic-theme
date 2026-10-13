@@ -2,9 +2,9 @@
 
 A dark blue GRUB 2 theme for **1920x1080** screens, with a rounded selection bar, 28 colored distro icons, Cascadia Code text and a blue-bordered terminal.
 
-<!-- Add a screenshot here:
+
 ![Boot menu](screenshots/menu.png)
--->
+
 
 ## Features
 
