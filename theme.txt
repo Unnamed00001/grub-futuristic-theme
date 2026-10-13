@@ -1,0 +1,76 @@
+# ==============================================
+#  FUTURISTIC GRUB THEME
+#  Resolution: 1920x1080
+# ==============================================
+
+
+# ---------- General settings ----------
+desktop-image: "background.png"
+
+message-font: "Cascadia Code Regular 16"
+message-color: "#000"
+message-bg-color: "#fff"
+
+
+# ---------- Terminal (keys "e" and "c") ----------
+terminal-font: "Cascadia Code Regular 16"
+terminal-box: "terminal/terminal_box_*.png"
+terminal-border: "24"
+terminal-left: "2%"
+terminal-top: "3%"
+terminal-width: "96%"
+terminal-height: "94%"
+
+
+# ---------- Boot menu ----------
++ boot_menu {
+	# position and size
+	left = 28%
+	top = 38%
+	width = 44%
+	height = 45%
+
+	# fonts and colors
+	item_font = "Cascadia Code Regular 20"
+	item_color = "#7E9CD2"
+	selected_item_font = "Cascadia Code Regular 20"
+	selected_item_color = "#FFFFFF"
+
+	# selected item bar
+	selected_item_pixmap_style = "menu/selected_*.png"
+	item_pixmap_style = "menu/item_*.png"
+
+	# icons
+	icon_width = 42
+	icon_height = 42
+
+	# spacing
+	item_height = 60
+	item_padding = 0
+	item_icon_space = 25
+	item_spacing = 6
+
+	scrollbar = false
+}
+
+
+# ---------- Countdown ("Auto start in Xs") ----------
++ progress_bar {
+	id = "__timeout__"
+
+	# position and size
+	left = 74%
+	top = 98%-133
+	width = 24%
+	height = 32
+
+	# text
+	font = "Cascadia Code Regular 16"
+	text_color = "#7E9CD2"
+  text = "Auto start in %ds"
+
+	# invisible bar (same color as the background)
+	fg_color = "#030914"
+	bg_color = "#030914"
+	border_color = "#030914"
+}
